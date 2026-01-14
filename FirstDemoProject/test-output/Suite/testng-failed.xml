@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="firstprojectWinthTestNGAndAssert.DemoTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="laptopData" invocation-numbers="0"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="demoTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- firstprojectWinthTestNGAndAssert.DemoTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
