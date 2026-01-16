@@ -10,7 +10,7 @@ public class DemoTest {
 		System.out.println("hiii");
 	}
 
-   @Test(groups= {"RT"})
+   @Test(groups= {"smokeTest"})
 	
 	public void demoTest1() {
 		System.out.println("========test2===========khare========");

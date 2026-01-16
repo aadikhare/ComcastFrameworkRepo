@@ -8,7 +8,7 @@
 </groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name=".DemoTest"/>
+      <class name="DemoTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
